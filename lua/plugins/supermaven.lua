@@ -11,6 +11,7 @@ return {
         suggestion_color = "#808080",
         cterm = 244,
       },
+      disable_inline_completion = true, -- Disable by default
     })
   end,
   keys = {
