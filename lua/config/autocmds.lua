@@ -22,4 +22,5 @@ set_transparent_bg()
 vim.api.nvim_create_autocmd("ColorScheme", {
   pattern = "*",
   callback = set_transparent_bg,
+  --hello this is an comment
 })
